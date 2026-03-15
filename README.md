@@ -40,11 +40,12 @@ The eigenvectors and eigenvalues of the covariance matrix were calculated, and t
 
 **Variance explained by components:**
 
-
+<img width="557" height="413" alt="Image" src="https://github.com/user-attachments/assets/988ac79e-8c30-41b6-bc9b-96f815acbb6c" />
 
 The first principal component explains 7% of the variance. The theta of the first principal component was obtained by calculating the mean theta. 
 
 See below the **plot of theta for each frequency** for the first session of the first mouse.
+
 Colors for each frequency:
 For 2,000 Hz: red.
 For 4,000 Hz: yellow.
@@ -52,4 +53,42 @@ For 8,000 Hz: magenta.
 For 16,000 Hz: green.
 For 32,000 Hz: blue.
 
+<img width="709" height="528" alt="Image" src="https://github.com/user-attachments/assets/6cf82157-fa70-4dc6-a300-5b8e1391426c" />
 
+Plots for every session of every mouse were found using the same methods. The mean theta for every mouse was found as well. See below the **mean theta for all sessions of the first mouse**:
+
+<img width="718" height="527" alt="Image" src="https://github.com/user-attachments/assets/d922739b-b0c8-4c4b-8ee3-c3f9be848981" />
+
+**The overall mean thetas for every mouse across all their sessions were found:**
+
+<img width="668" height="501" alt="Image" src="https://github.com/user-attachments/assets/e3fc4e18-366c-43e5-b147-58e3992ce129" />
+
+Peak values for thetas:
+
+Peak values (2k, 4k, 8k, 16k, 32k): 0.2453350269895592, 0.17388835025236776, 0.30676480744535983, 0.3465176134484306, 0.24339926839819753
+
+Peak times: 0.02, 0.02, 0.02, 0.02, 0.02
+
+The peak for 4,000 Hz is the lowest, and the peak for 16,000 Hz is the highest. The second highest peak is at 8,000 Hz. The peaks for 2,000 Hz and 32,000 Hz are in the middle and are nearly identical.
+
+Analysis of these plots shows that there is no linear dependence between the neuronal response and sound frequency.
+
+See below the obtained plot showing the **dependence of the neuronal response on sound frequency**:
+
+<img width="616" height="446" alt="Image" src="https://github.com/user-attachments/assets/c7d49a43-ed88-471d-8c6a-38cbdb9c4697" />
+
+See below the data on the **hearing ranges of different animals including mice**.
+
+<img width="743" height="469" alt="Image" src="https://github.com/user-attachments/assets/839a6127-4229-42af-8713-dd0f490eb611" />
+
+*Source: Turner et al., 2005, P. 23.*
+
+The hearing range data is consistent with the acquired results. 2 and 4 kHz are heard by mice nearly equally poorly compared to other sounds in the 2–32 kHz range. According to the plot, 8 kHz is heard better than 2 and 4 kHz, and 16 kHz is heard even better than 8 kHz. In turn, 32 kHz is heard worse than 16 kHz, but better than 2 and 4 kHz.
+
+## Conclusion
+
+The performed analysis demonstrates that the dependence between the sound frequency and the neuronal response is not linear but parabolic. These results are consistent with scientific data that supports the non-linearity of this dependence.
+
+## References
+
+Turner JG, Parrish JL, Hughes LF, Toth LA, Caspary DM. Hearing in laboratory animals: strain differences and nonauditory effects of noise. Comp Med. 2005 Feb;55(1):12-23. PMID: 15766204; PMCID: PMC3725606.
